@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Build folders
+dist/
+build/
+
+# VS Code
+.vscode/
+
+# Coverage
+coverage/
