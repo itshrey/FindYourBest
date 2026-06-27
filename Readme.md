@@ -1,7 +1,6 @@
 # Connect
 
 A modern full-stack dating application built using the MERN stack.
-
 ## Tech Stack
 
 - React
