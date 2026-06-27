@@ -1,9 +1,35 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #ff4d6d;
+  --primary-dark: #e11d48;
+
+  --background: #0f172a;
+  --surface: #1e293b;
+
+  --border: #334155;
+
+  --text: #f8fafc;
+  --muted: #94a3b8;
+
+  --success: #22c55e;
+  --danger: #ef4444;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Inter", sans-serif;
+  background: var(--background);
+  color: var(--text);
 }

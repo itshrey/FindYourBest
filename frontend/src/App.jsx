@@ -1,9 +1,16 @@
+import Navbar from "./components/layout/Navbar";
+import Hero from "./components/common/Hero";
+import Features from "./components/common/Features";
+import Footer from "./components/layout/Footer";
 
 function App() {
   return (
-    <div>
-      <h1>FindYourBest</h1>
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+      <Features />
+      <Footer />
+    </>
   );
 }
 
